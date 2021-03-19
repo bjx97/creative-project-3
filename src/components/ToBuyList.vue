@@ -3,18 +3,17 @@
         <h2>To Buy List</h2>
         <div class="wrapper">
             <div class="what-if" v-if="this.$root.$data.tobuylist.length === 0">
-                <p style="font-size: 40px"><strong>Choose some books to buy :)</strong></p>
+                <p style="font-size: 40px"><strong>Favorite some book :)</strong></p>
             </div>
             <div v-else class="book-wrapper">
                 <div class="books">
                     <div class="book" v-for="book in tobuylist" :key="book.id">
                         <div class="picture">
                             <p><strong>Name:</strong> {{book.name}}</p><br/>
-                            <p><strong>Price:</strong> {{book.price}}</p>
                         </div>
                         <div class="info">
                             <img :src="'/images/'+book.image"/>
-                            <button class="auto" @click="remove(book)">DELETE FROM LIST</button>
+                            <button class="auto" @click="remove(book)">Dislike it!</button>
                         </div>
                     </div>
                 </div>
@@ -72,7 +71,7 @@ export default {
 .picture {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -86,7 +85,6 @@ export default {
 
 .info {
     display: flex;
-    padding-top: 10px;
 }
 
 .auto {

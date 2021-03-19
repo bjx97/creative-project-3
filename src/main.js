@@ -7,7 +7,8 @@ Vue.config.productionTip = false
 import mock from './mock-data.js'
 
 let data = {
-  books: mock,
+  books: mock.reads,
+  id: mock.updatedID,
   nominatelist: [],
   tobuylist: []
 }

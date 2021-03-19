@@ -24,7 +24,7 @@
         </router-link>
         <router-link to="/tobuylist">
           <div class="menu-item browse">
-            <p>BuyList</p>
+            <p>Favorites</p>
           </div>
         </router-link>
       </div>

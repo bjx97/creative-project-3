@@ -12,7 +12,7 @@
                 <p><strong>Genre:</strong> {{book.genre}}</p>
                 <p><strong>Author:</strong> {{book.author}}</p>
                 <p><strong>Language:</strong> {{book.language}}</p><br/>
-                <button class="auto" @click="add(book)">Add to BuyList</button>
+                <button class="auto" @click="add(book)">Favorite it!</button>
             </div>
         </div>
     </div>

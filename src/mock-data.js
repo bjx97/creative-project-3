@@ -1,4 +1,6 @@
-let mock = [{
+let mock = {
+updatedID: 41,
+reads: [{
     id: 1,
     name: "The 2-Hour Job Search",
     price: "$13 - $14",
@@ -359,5 +361,6 @@ let mock = [{
     image: "andrew.png"
   }
 ]
+}
 
 export default mock;

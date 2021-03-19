@@ -30,8 +30,10 @@
                 <hr/>
             </div>
             <div class="remove-wrapper">
-                <button @click="remove(list)">Remove Book</button>
+                <button @click="remove(list)">Remove</button>
                 <br/>
+                <br/>
+                <button @click="addMock(list)">+ to Original List</button>
                 <hr/>
             </div>
         </div>
@@ -48,11 +50,11 @@ export default {
   },
   data () {
       return {
-        name: '',
-        genre: '',
-        author: '',
-        price: '',
-        language: '',
+        addedBookName: '',
+        addedGenre: '',
+        addedAuthor: '',
+        addedPrice: '',
+        addedLanguage: '',
       }
   },
   methods: {
@@ -73,6 +75,18 @@ export default {
     remove(list) {
         let index = this.$root.$data.nominatelist.indexOf(list);
         this.$root.$data.nominatelist.splice(index, 1);
+    },
+    addMock(list) {
+        this.$root.$data.books.push( {
+            id: this.$root.$data.id,
+            name: list.name,
+            price: list.price,
+            language: list.language,
+            author: list.author,
+            genre: list.genre,
+            //image:
+        })
+        this.$root.$data.id += 1;
     }
   }
 }
