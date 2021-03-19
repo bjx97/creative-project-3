@@ -22,9 +22,9 @@
             <p>Nominate</p>
           </div>
         </router-link>
-        <router-link to="/list">
+        <router-link to="/tobuylist">
           <div class="menu-item browse">
-            <p>List</p>
+            <p>BuyList</p>
           </div>
         </router-link>
       </div>
@@ -49,7 +49,7 @@
 }
 
 body {
-  margin: 50px 100px;
+  margin: 30px;
   background-color: #F6EAD1;
 }
 

@@ -53,10 +53,6 @@ body {           /* Dark gray */
   flex-wrap: wrap;
 }
 
-.picture {
-
-}
-
 .header {
   color: #868583;
   padding:100px 100px 0px 0px;

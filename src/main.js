@@ -8,7 +8,8 @@ import mock from './mock-data.js'
 
 let data = {
   books: mock,
-  nominatelist: []
+  nominatelist: [],
+  tobuylist: []
 }
 
 new Vue({

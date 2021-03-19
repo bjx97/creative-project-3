@@ -1,7 +1,7 @@
 <template>
 <div class="addedWrapper">
     <div class="form-wrapper">
-        <h2>Nominate a Book</h2>
+        <h2>Nominate a Book</h2><br/>
         <form v-on:submit.prevent="addBook">
             <input v-model="addedBookName" placeholder="Book name"><br/><br/>
             <input v-model="addedPrice" placeholder="Price"><br/><br/>
@@ -15,7 +15,10 @@
         <h2>Book List</h2>
         <hr/>
         <br/>
-        <div v-for="list in nominatelist" :key="list.id" class="item-wrapper">
+        <div v-if="this.$root.$data.nominatelist.length === 0">
+            <p style="font-size: 50px"><strong>List is empty!</strong></p>
+        </div>
+        <div v-else v-for="list in nominatelist" :key="list.id" class="item-wrapper">
             <div>
                 <br/>
                 <p>Name: {{list.name}}</p>
