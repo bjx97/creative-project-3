@@ -3,115 +3,127 @@ updatedID: 41,
 reads: [{
     id: 1,
     name: "The 2-Hour Job Search",
-    price: "$13 - $14",
+    price: 13,
     language: "English",
     author: "Steve Dalton",
     genre: "Self-help",
-    image: '2-hour.png'
+    image: '2-hour.png',
+    reviews:[]
   },
   {
     id: 2,
     name: "The Five People You Meet In Heaven",
-    price: "$7 - $15",
+    price: 15,
     language: "English",
     author: "Mitch Albom",
     genre: "Philosophical fiction",
-    image: 'five-people.png'
+    image: 'five-people.png',
+    reviews:[]
   },
   {
     id: 3,
     name: "From Thrid World To First",
-    price: "$15 - $35",
+    price: 35,
     language: "English",
     author: "Lee Kuan Yew",
     genre: "Biography",
-    image: "third-first.png"
+    image: "third-first.png",
+    reviews:[]
   },
   {
     id: 4,
     name: "The 7 Habits Of Highly Effective People",
-    price: "$14 - $17",
+    price: 17,
     language: "English",
     author: "Stephen Covey",
     genre: "Self-help",
-    image: "7-highly.jpeg"
+    image: "7-highly.jpeg",
+    reviews:[]
   },
   {
     id: 5,
     name: "Good To Great",
-    price: "$9 - $13",
+    price: 13,
     language: "English",
     author: "Jim Collins",
     genre: "Non-fiction",
-    image: "good-great.jpg"
+    image: "good-great.jpg",
+    reviews:[]
   },
   {
     id: 6,
     name: "Who Moved My Cheese?",
-    price: "$7 - $12",
+    price: 12,
     language: "English",
     author: "Spencer Johnson",
     genre: "Self-help fiction",
-    image: "my-cheese.jpg"
+    image: "my-cheese.jpg",
+    reviews:[]
   },
   {
     id: 7,
     name: "The Art Of War",
-    price: "$13 - $15",
+    price: 15,
     language: "Chinese Mandarin",
     author: "Sun Tzu",
     genre: "Treatise, Biography",
-    image: "art-war.jpg"
+    image: "art-war.jpg",
+    reviews:[]
   },
   {
     id: 8,
     name: "A Promised Land",
-    price: "$18 - $24",
+    price: 24,
     language: "English",
     author: "Barack Obama",
     genre: "Autobiography, Biography",
-    image: "promised.jpg"
+    image: "promised.jpg",
+    reviews:[]
   },
   {
     id: 9,
     name: "Rich Dad Poor Dad",
-    price: "$8 - $10",
+    price: 10,
     language: "English",
     author: "Robert Kiyosaki",
     genre: "Personal finance, Non-fiction",
-    image: "rich-poor.jpg"
+    image: "rich-poor.jpg",
+    reviews:[]
   },
   {
     id: 10,
     name: "The Power Of Subconcious Mind",
-    price: "$10 - $12",
+    price: 12,
     language: "English",
     author: "Joseph Murphy",
     genre : "Self-help",
-    image: "subconcious.jpg"
+    image: "subconcious.jpg",
+    reviews:[]
   },
   {
     id: 11,
     name: "The Hill We Climb",
-    price: "$13",
+    price: 13,
     language: "Englsih",
     author: "Amanda Gorman",
     genre: "Poetry",
-    image: "hill-climb.png"
+    image: "hill-climb.png",
+    reviews:[]
   },
   {
     id: 12,
     name: "How To Avoid Climate Disaster",
-    price: "$20",
+    price: 20,
     language: "English",
     author: "Bill Gates",
     genre: "Nature writing",
-    image: "climate.png"
+    image: "climate.png",
+    reviews:[]
   },
   {
     id: 13,
     name: "In Five Years",
-    price: "$15",
+    price: 15,
     language: "English",
     author: "Rebecca Serle",
     genre: "Romance novel",
@@ -120,7 +132,7 @@ reads: [{
   {
     id: 14,
     name: "Blood Brothers",
-    price: "$14",
+    price: 14,
     language: "English",
     author: "Elias Chacour",
     genre: "Biography",
@@ -129,7 +141,7 @@ reads: [{
   {
     id: 15,
     name: "Beyond Order: 12 More Rules for Life",
-    price: "#23",
+    price: 23,
     language: "English",
     author: "Jordan Peterson",
     genre: "Self-help",
@@ -138,7 +150,7 @@ reads: [{
   {
     id: 16,
     name: "The Boy, the Mole, the Fox and the Horse",
-    price: "$23",
+    price: 23,
     language: "Ennglish",
     author: "Charlie Mackesy",
     genre: "Comics",
@@ -147,7 +159,7 @@ reads: [{
   {
     id: 17,
     name: "Klara And The Sun",
-    price: "$25",
+    price: 25,
     language: "English",
     author: "Kazuo Ishiguro",
     genre: "Science Fiction, Dystopian Fiction",
@@ -156,7 +168,7 @@ reads: [{
   {
     id: 18,
     name: "Think Again: The Power of Knowing What You Don't Know",
-    price: "$22",
+    price: 22,
     language: "English",
     author: "Adam Grant",
     genre: "Self-help",
@@ -165,7 +177,7 @@ reads: [{
   {
     id: 19,
     name: "Just as I Am: A Memoir",
-    price: "$22",
+    price: 22,
     language: "English",
     author: "Cicely Tyson",
     genre: "Biography, Autobiography",
@@ -174,7 +186,7 @@ reads: [{
   {
     id: 20,
     name: "Breath: The New Science of a Lost Art",
-    price: "$28",
+    price: 28,
     language: "English",
     author: "James Nestor",
     genre: "Self-help book, Creative nonfiction",
@@ -183,7 +195,7 @@ reads: [{
   {
     id: 21,
     name: "Four Hundred Souls",
-    price: "$24",
+    price: 24,
     language: "English",
     author: "Ibram X. Kendi (Editor)",
     genre: "Biography",
@@ -192,7 +204,7 @@ reads: [{
   {
     id: 22,
     name: "The Song of Achilles",
-    price: "$15",
+    price: 15,
     language: "English",
     author: "Madeline Miller",
     genre: "Novel, Romance novel, Historical Fiction, War story",
@@ -201,7 +213,7 @@ reads: [{
   {
     id: 23,
     name: "Becoming",
-    price: "$16",
+    price: 16,
     language: "English",
     author: "Michelle Obama",
     genre: "Memoir, Biography, Autobiography",
@@ -210,7 +222,7 @@ reads: [{
   {
     id: 24,
     name: "White Fragility",
-    price: "$14",
+    price: 14,
     language: "English",
     author: "Robin DiAngelo,",
     genre: "Self-help",
@@ -219,7 +231,7 @@ reads: [{
   {
     id: 25,
     name: "Thinking, Fast and Slow",
-    price: "$16",
+    price: 16,
     language: "English",
     author: "Daniel Kahneman",
     genre: "Non-fiction",
@@ -228,7 +240,7 @@ reads: [{
   {
     id: 26,
     name: "Hood Feminism",
-    price: "$14.50",
+    price: 15,
     language: "English",
     author: "Mikki Kendall",
     genre: "Feminist",
@@ -237,7 +249,7 @@ reads: [{
   {
     id: 27,
     name: "The Color of Law",
-    price: "$16",
+    price: 16,
     language: "English",
     author: "Richard Rothstein",
     genre: "Non-fiction",
@@ -246,7 +258,7 @@ reads: [{
   {
     id: 28,
     name: "Milk And Honey",
-    price: "$12",
+    price: 12,
     language: "English",
     author: "Rupi Kaur",
     genre: "Poetry",
@@ -255,7 +267,7 @@ reads: [{
   {
     id: 29,
     name: "The Midnight Library",
-    price: "$21",
+    price: 21,
     language: "English",
     author: "Matt Haig",
     genre: "Science Fiction, Fantasy Fiction",
@@ -264,7 +276,7 @@ reads: [{
   {
     id: 30,
     name: "One Of Us Is Lying",
-    price: "$15",
+    price: 15,
     language: "English",
     author: "Karen M. McManus",
     genre: "Young adult fiction, Mystery",
@@ -273,7 +285,7 @@ reads: [{
   {
     id: 31,
     name: "These Violent Delights",
-    price: "$15",
+    price: 15,
     language: "English",
     author: "Chloe Gong",
     genre: "Fantasy Fiction",
@@ -282,7 +294,7 @@ reads: [{
   {
     id: 32,
     name: "Chain of Iron",
-    price: "$20",
+    price: 20,
     language: "English",
     author: "Cassandra Clare",
     genre: "Shadowhunters",
@@ -291,7 +303,7 @@ reads: [{
   {
     id: 33,
     name: "A Brief History of Time",
-    price: "$13",
+    price: 13,
     language: "English",
     author: "Stephen Hawking",
     genre: "Popular Science",
@@ -300,7 +312,7 @@ reads: [{
   {
     id: 34,
     name: "Fahrenheit 451",
-    price: "$13.50",
+    price: 14,
     language: "English",
     author: "Ray Bradbury",
     genre: "Utopian and dystopian fiction",
@@ -309,7 +321,7 @@ reads: [{
   {
     id: 35,
     name: "Things Fall Apart",
-    price: "$13",
+    price: 13,
     language: "English",
     author: "Chinua Achebe",
     genre: "Novel, Historical Fiction",
@@ -318,7 +330,7 @@ reads: [{
   {
     id: 36,
     name: "The Year of Magical Thinking",
-    price: "$11",
+    price: 11,
     language: "English",
     author: "Joan Didion",
     genre: "Memoir",
@@ -327,7 +339,7 @@ reads: [{
   {
     id: 37,
     name: "A Simple Plan",
-    price: "$14.50",
+    price: 15,
     language: "English",
     author: "Scott Smith",
     genre: "Thriller, Suspense, Psychological Fiction",
@@ -336,7 +348,7 @@ reads: [{
   {
     id: 38,
     name: "We Begin at the End",
-    price: "$17",
+    price: 17,
     language: "English",
     author: "Chris Whitaker ",
     genre: "Thriller, Literary fiction",
@@ -345,7 +357,7 @@ reads: [{
   {
     id: 39,
     name: "Dirty Gold",
-    price: "$23",
+    price: 23,
     language: "English",
     author: "Kyra Gurney",
     genre: "True Crime",
@@ -354,7 +366,7 @@ reads: [{
   {
     id: 40,
     name: "Andrew Carnegie",
-    price: "$24",
+    price: 24,
     language: "English",
     author: "David Nasaw",
     genre: "Biography",

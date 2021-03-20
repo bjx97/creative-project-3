@@ -1,9 +1,8 @@
 <template>
 <div class="home-content">
       <div class='mission'>
-        <p>We only promote books to read and study. For any retailing purchases or interests in books, please look up more
-          information at <a href='https://google.com' target='_blank'>Google.com</a>. You should be able to find any desired information for any books
-          listed in this website.</p>
+        <p>We promote books to read and study by providing a list of top rated books. For any retailing questions or purchases,
+          please use <a href='https://google.com' target='_blank'>Google.com</a> to locate the books you find here.</p>
       </div>
 
       <div class='box1'>
@@ -26,6 +25,10 @@
           <img src='images/CC.jpg' style='padding:50px 0 0 140px;' width='400'>
         </div>
         <div class='header3'>“A room without books is like a body without a soul.” –Cicero</div>
+      </div>
+  
+      <div class="footer">
+        <a href="https://github.com/bjx97/creative-project-3" target="_blank">GitHub Repository</a>
       </div>
 </div>
 </template>
@@ -92,24 +95,6 @@ body {           /* Dark gray */
   font-weight: bold;
 }
 
-.footer{
-  text-align:center;
-  padding: 40px 0 20px 0;
-}
-
-a:link {
-  color: blue;
-  text-decoration: none;
-}
-
-a:visited {
-  color: purple;
-}
-
-a:hover {
-  color: aqua;
-  text-decoration: underline;
-}
 
 /* Mobile Styles */
 @media only screen and (max-width: 414px) {

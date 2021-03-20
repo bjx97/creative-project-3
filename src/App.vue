@@ -2,7 +2,7 @@
   <div id="app">
     <div id="menu">
       <div id="first" class="menu-item">
-        <p><strong>[BC] Collections</strong></p>
+        <p><strong>[BC] Book Collections</strong></p>
       </div>
       <div id="brand">
       </div>
@@ -103,5 +103,24 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+
+.footer{
+    text-align:center;
+    margin-top: 80px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
 }
 </style>

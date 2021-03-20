@@ -1,5 +1,7 @@
 <template>
 <div>
+  <div class='header1'><h1>Top nominations of the month</h1>
+  </div>
   <BookList :books="displaybooks"/>
 </div>
 </template>
@@ -22,3 +24,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  color: #868583;
+  margin-bottom: 40px;
+}
+
+</style>

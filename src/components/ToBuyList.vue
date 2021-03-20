@@ -1,6 +1,6 @@
 <template>
     <div class="buylist-wrapper">
-        <h2>To Buy List</h2>
+        <h2>Favorite List</h2>
         <div class="wrapper">
             <div class="what-if" v-if="this.$root.$data.tobuylist.length === 0">
                 <p style="font-size: 40px"><strong>Favorite some book :)</strong></p>
@@ -18,6 +18,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/bjx97/creative-project-3" target="_blank">GitHub Repository</a>
         </div>
     </div>
 </template>
@@ -96,5 +99,6 @@ export default {
 .what-if {
     margin-top: 150px;
 }
+
 
 </style>
