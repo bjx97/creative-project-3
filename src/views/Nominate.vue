@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class='header1'><h2>You may also nominate any books you feel worthy of being in the top rated books list.</h2>
+    <div class='header1' style="color:#1270bd;"><h2>You may also nominate any books you feel worthy of being in the top rated books list.</h2>
     </div>
     <NominateList :nominatelist="displaylist"/>
 </div>

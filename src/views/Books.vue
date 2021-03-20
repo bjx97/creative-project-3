@@ -30,7 +30,7 @@ export default {
 .header1 {
   display: flex;
   justify-content: center;
-  color: #868583;
+  color:#1270bd;
   margin-bottom: 40px;
 }
 

@@ -1,6 +1,6 @@
 <template>
 <div class="home-content">
-      <div class='mission'>
+      <div class='mission' style="color:#1270bd;">
         <p>We promote books to read and study by providing a list of top rated books. For any retailing questions or purchases,
           please use <a href='https://google.com' target='_blank'>Google.com</a> to locate the books you find here.</p>
       </div>

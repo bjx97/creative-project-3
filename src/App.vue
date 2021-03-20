@@ -62,7 +62,8 @@ body {
 }
 
 #menu a {
-  color: #B84901;
+  color: #968981;
+  text-decoration: none;
 }
 
 #first {

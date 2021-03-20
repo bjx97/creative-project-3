@@ -1,6 +1,6 @@
 <template>
     <div class="buylist-wrapper">
-        <h2>Favorite List</h2>
+        <h2 style="color:#1270bd">Favorite List</h2>
         <div class="wrapper">
             <div class="what-if" v-if="this.$root.$data.tobuylist.length === 0">
                 <p style="font-size: 40px"><strong>Favorite some book :)</strong></p>
